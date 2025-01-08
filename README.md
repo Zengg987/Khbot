@@ -1,6 +1,6 @@
 # Kahoot Bot
 
-A powerful and customizable Kahoot bot built with C# and .NET 8, designed to automate interaction with Kahoot quizzes. This project demonstrates efficient use of C# asynchronous programming and web protocols to interact with Kahoot's API.
+Kahoot bot built with C# and .NET 8, designed to automate interaction with Kahoot quizzes. This project demonstrates efficient use of C# asynchronous programming and web protocols to interact with Kahoot's API.
 
 ---
 
