@@ -1,80 +1,60 @@
-# Kahoot Bot
+KHBOT
+Automate, Dominate, Elevate Your Kahoot Experience
 
-Kahoot bot built with C# and .NET 8, designed to automate interaction with Kahoot quizzes. This project demonstrates efficient use of C# asynchronous programming and web protocols to interact with Kahoot's API.
+last-commit repo-top-language repo-language-count
+Built with the tools and technologies:
 
----
+Markdown NuGet
 
-## Features
+Table of Contents
+Overview
+Getting Started
+Prerequisites
+Installation
+Usage
+Testing
+Overview
+Khbot is an advanced automation framework for interacting with Kahoot quizzes, enabling the simulation of multiple bots with customizable identities and answer automation. Built with browser automation via Selenium WebDriver, it facilitates scalable testing, research, or gameplay automation.
 
-- **Multi-bot support**: Simulate multiple players joining a Kahoot game.
-- **Customizable bot names**: Set unique names or generate random ones.
-- **Answer automation**: Automatically select answers based on predefined strategies.
-- **Real-time interactions**: Respond to quiz updates in real-time.
-- **Simple and extensible**: Easily add new features or customize behavior.
+Why Khbot?
 
----
+This project empowers developers to automate Kahoot gameplay efficiently. The core features include:
 
-## Disclaimer
+🎯 🧩 Multi-Bot Automation: Simulate numerous players for large-scale testing or gameplay.
+🚀 🌐 Browser Automation: Seamless interaction with Kahoot through Selenium WebDriver.
+⚙️ 🖥️ Real-Time Control: Monitor and manage game progress, leaderboard, and bot actions live.
+🎨 🛠️ Customizable UI: User-friendly interface for configuration and deployment.
+🔄 🔧 Modular Architecture: Clear separation of components for easy customization and extension.
+Getting Started
+Prerequisites
+This project requires the following dependencies:
 
-**Limitation on Bot Count**: The number of bots you can run simultaneously is limited. To handle a large number of bots, you will need to configure proxies. Proxy setup is not included in this project, so you will need to add it yourself if required.
+Programming Language: CSharp
+Package Manager: Nuget
+Installation
+Build Khbot from the source and install dependencies:
 
-**Bug in Auto Answer Feature**: The automatic answer selection feature may not work correctly because there html class element of kahoot..
+Clone the repository:
 
----
+❯ git clone https://github.com/Zengg987/Khbot
+Navigate to the project directory:
 
-## Prerequisites
+❯ cd Khbot
+Install the dependencies:
 
-Before running the project, ensure you have the following installed:
+Using nuget:
 
-- [Visual Studio 2022](https://visualstudio.microsoft.com/)
-- [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
-- [Git](https://git-scm.com/)
+❯ dotnet restore
+Usage
+Run the project with:
 
----
+Using nuget:
 
-## Getting Started
-
-Follow these steps to set up and run the Kahoot Bot locally.
-
-### 1. Clone the Repository
-```bash
-git clone <repository-url>
-cd kahoot-bot
-```
-
-### 2. Install Dependencies
-Restore required NuGet packages:
-```bash
-dotnet restore
-```
-
-### 3. Build the Project
-Compile the project:
-```bash
-dotnet build
-```
-
-### 4. Run the Project
-Launch the bot:
-```bash
 dotnet run
-```
+Testing
+Khbot uses the {test_framework} test framework. Run the test suite with:
 
----
+Using nuget:
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## Acknowledgments
-
-- Inspired by the Kahoot API and the need for automated solutions.
-- Special thanks to the .NET community for their valuable libraries and tools.
-
----
-
-
-
-
+dotnet test
+⬆ Return
